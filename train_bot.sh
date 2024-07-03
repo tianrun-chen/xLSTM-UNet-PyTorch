@@ -1,0 +1,2 @@
+# nnUNetv2_train {DATASET_ID} {dataset type 2d/3d_fullres} {exp name} -tr {trainer} -lr {learning rate} -bs {batchsize}
+CUDA_VISIBLE_DEVICES=2 nnUNetv2_train Dataset702_AbdomenMR 2d all -tr nnUNetTrainerUxLSTMBot -lr 5e-3 -bs 6
