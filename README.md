@@ -133,3 +133,5 @@ You are also welcomed to check our Segment Anything Adapter (SAM-Adapter) <a hre
       primaryClass={cs.CV}
 }
 ```
+## Acknowledgement
+The code is based on Jun Ma, Feifei Li, Bo Wang. "U-Mamba: Enhancing Long-range Dependency for Biomedical Image Segmentation." _arXiv preprint arXiv:2401.04722_, 2024.
