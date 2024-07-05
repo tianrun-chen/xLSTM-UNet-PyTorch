@@ -96,7 +96,7 @@ nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_ID -c DATASET_TYPE 
 > `DATASET_TYPE` can be `2d` and `3d_fullres` for 2D and 3D models, respectively.
 
 ### Metric
-- We provide pretrained models that you can download from [this link](https://drive.google.com/drive/folders/1DmyIye4Gc9wwaA7MVKFVi-bWD2qQb-qN?usp=sharing). Please ensure you save them in the `pretrained_model` folder. Then, run process_weight.py to verify that the weights are correctly placed in the appropriate file path
+- We provide pretrained models that you can download from [this link](https://drive.google.com/drive/folders/1N3qQQ-TJ_qddYjgAS3gSm9zm8fDeTmud?usp=sharing). Please ensure you save them in the `pretrained_model` folder. Then, run process_weight.py to verify that the weights are correctly placed in the appropriate file path
 
 ```bash
 python process_weight.py
